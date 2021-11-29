@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Questions</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'polls/css/style.css' %}">
 </head>
 <body>
 {% if latest_questions_list %}
